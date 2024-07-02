@@ -30,10 +30,12 @@ body{
 	border-radius:20px;
 	cursor:pointer;
 	float : right;
+	transitition:background-color 2s;
 	
 }
 .about_me-button:hover{
 	background-color:grey;
+	transitition:background-color 2s;
 }
 .work-button{
 	margin:-10px 10px;
@@ -47,9 +49,11 @@ body{
 	border-radius:20px;
 	cursor:pointer;
 	float : right;
+	transitition:background-color 2s;
 }
 .work-button:hover{
 	background-color:grey;
+	transitition:background-color 2s;
 }
 .resume-button{
 	margin:-10px 10px;
@@ -63,9 +67,11 @@ body{
 	border-radius:20px;
 	cursor:pointer;
 	float : right;
+	transitition:background-color 2s;
 }
 .resume-button:hover{
 	background-color:grey;
+	transitition:background-color 2s;
 }
 .project-button{
 	margin:-10px 10px;
@@ -79,14 +85,16 @@ body{
 	border-radius:20px;
 	cursor:pointer;
 	float : right;
+	transitition:background-color 2s;
 }
 .project-button:hover{
 	background-color:grey;
+	transitition:background-color 2s;
 }
 .flex-container {
 	display: flex;
 	background-color: black;
-    	color:antiquewhite;
+    color:antiquewhite;
 	flex-direction:row;
 	align-items: center;
   }
