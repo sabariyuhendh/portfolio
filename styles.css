@@ -1,0 +1,87 @@
+body{
+  padding: 25px;
+  background-color: black;
+	#1A2130
+}
+.title {
+	color: antiquewhite;
+	font-family:"Courier New", monospace;
+	
+}
+.header{
+	color:antiquewhite;
+	font-family:"Courier New", monospace;
+	font-size: 60px;
+	margin:-20px 10px;
+}
+.level{
+  color: #4B70F5;
+  font-family:"Courier New", monospace;
+}
+.about_me-button{
+	margin:-10px 10px;
+	font-size: 20px;
+	background-color : black;
+	color:antiquewhite;
+	font-family:"Courier New", monospace;
+	border-color:white;
+	border-style:ridge;
+	border-width :1px;
+	height: 36px;
+	width : 130px;
+	border-radius:20px;
+	cursor:pointer;
+	float : right;
+	
+}
+.about_me-button:hover{
+	background-color:grey;
+}
+.work-button{
+	margin:-10px 10px;
+	font-size: 20px;
+	background-color : black;
+	color:antiquewhite;
+	font-family:"Courier New", monospace;
+	border:1px ridge white;
+	height: 36px;
+	width : 120px;
+	border-radius:20px;
+	cursor:pointer;
+	float : right;
+}
+.work-button:hover{
+	background-color:grey;
+}
+.resume-button{
+	margin:-10px 10px;
+	font-size: 20px;
+	background-color : black;
+	color:antiquewhite;
+	font-family:"Courier New", monospace;
+	border:1px ridge white;
+	height: 36px;
+	width : 120px;
+	border-radius:20px;
+	cursor:pointer;
+	float : right;
+}
+.resume-button:hover{
+	background-color:grey;
+}
+.project-button{
+	margin:-10px 10px;
+	font-size: 20px;
+	background-color : black;
+	color:antiquewhite;
+	font-family:"Courier New", monospace;
+	border:1px ridge white;
+	height: 36px;
+	width : 120px;
+	border-radius:20px;
+	cursor:pointer;
+	float : right;
+}
+.project-button:hover{
+	background-color:grey;
+}
