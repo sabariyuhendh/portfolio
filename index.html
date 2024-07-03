@@ -9,7 +9,10 @@
 			Project
 		</button>
 		
-		<button onclick="openPdf()" class = "resume-button">
+		<button onclick="(()=>{
+  		var pdfPath = '/Resume-1.pdf';
+  		window.open(pdfPath, '_blank');
+		})()" class = "resume-button">
 			Resume
 		</button>
 
