@@ -1,4 +1,4 @@
 function openPdf() {
-  var pdfPath = 'path/to/your/pdf/document.pdf';
+  var pdfPath = '/Resume-1.pdf';
   window.open(pdfPath, '_blank');
 }
