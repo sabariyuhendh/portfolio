@@ -93,8 +93,8 @@ body{
 }
 .flex-container {
 	display: flex;
-	background-color: grey;
-    color:blanchedalmond;
+	background-color:blanchedalmond;
+    color:black;
 	flex-direction:row;
 	align-items: center;
   }
