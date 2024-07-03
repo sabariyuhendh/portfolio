@@ -1,111 +1,108 @@
-body{
+body {
   padding: 25px;
   background-color: black;
 }
 .title {
-	color: antiquewhite;
-	font-family:"Courier New", monospace;
+  color: antiquewhite;
+  font-family: "Courier New", monospace;
 }
-.header{
-	color:antiquewhite;
-	font-family:"Courier New", monospace;
-	font-size: 60px;
-	margin:-20px 10px;
+.header {
+  color: antiquewhite;
+  font-family: "Courier New", monospace;
+  font-size: 60px;
+  margin: -20px 10px;
 }
-.level{
-  color: #4B70F5;
-  font-family:"Courier New", monospace;
+.level {
+  color: #4b70f5;
+  font-family: "Courier New", monospace;
 }
-.about_me-button{
-	margin:-10px 10px;
-	font-size: 20px;
-	background-color : black;
-	color:antiquewhite;
-	font-family:"Courier New", monospace;
-	border-color:white;
-	border-style:ridge;
-	border-width :1px;
-	height: 36px;
-	width : 130px;
-	border-radius:20px;
-	cursor:pointer;
-	float : right;
-	transition:background-color 2s;
-	
+.about_me-button {
+  margin: -10px 10px;
+  font-size: 20px;
+  background-color: black;
+  color: antiquewhite;
+  font-family: "Courier New", monospace;
+  border-color: white;
+  border-style: ridge;
+  border-width: 1px;
+  height: 36px;
+  width: 130px;
+  border-radius: 20px;
+  cursor: pointer;
+  float: right;
+  transition: background-color 1s;
 }
-.about_me-button:hover{
-	background-color:grey;
-	transition:background-color 2s;
-} 
-.work-button{
-	margin:-10px 10px;
-	font-size: 20px;
-	background-color : black;
-	color:antiquewhite;
-	font-family:"Courier New", monospace;
-	border:1px ridge white;
-	height: 36px;
-	width : 120px;
-	border-radius:20px;
-	cursor:pointer;
-	float : right;
-	transition:background-color 2s;
+.about_me-button:hover {
+  background-color: grey;
+  transition: background-color 1s;
 }
-.work-button:hover{
-	background-color:grey;
-	transition:background-color 2s;
+.work-button {
+  margin: -10px 10px;
+  font-size: 20px;
+  background-color: black;
+  color: antiquewhite;
+  font-family: "Courier New", monospace;
+  border: 1px ridge white;
+  height: 36px;
+  width: 120px;
+  border-radius: 20px;
+  cursor: pointer;
+  float: right;
+  transition: background-color 1s;
 }
-.resume-button{
-	margin:-10px 10px;
-	font-size: 20px;
-	background-color : black;
-	color:antiquewhite;
-	font-family:"Courier New", monospace;
-	border:1px ridge white;
-	height: 36px;
-	width : 120px;
-	border-radius:20px;
-	cursor:pointer;
-	float : right;
-	transition:background-color 2s;
+.work-button:hover {
+  background-color: grey;
+  transition: background-color 1s;
 }
-.resume-button:hover{
-	background-color:grey;
-	transition:background-color 2s;
+.resume-button {
+  margin: -10px 10px;
+  font-size: 20px;
+  background-color: black;
+  color: antiquewhite;
+  font-family: "Courier New", monospace;
+  border: 1px ridge white;
+  height: 36px;
+  width: 120px;
+  border-radius: 20px;
+  cursor: pointer;
+  float: right;
+  transition: background-color 1s;
 }
-.project-button{
-	margin:-10px 10px;
-	font-size: 20px;
-	background-color : black;
-	color:antiquewhite;
-	font-family:"Courier New", monospace;
-	border:1px ridge white;
-	height: 36px;
-	width : 120px;
-	border-radius:20px;
-	cursor:pointer;
-	float : right;
-	transition:background-color 2s;
+.resume-button:hover {
+  background-color: grey;
+  transition: background-color 1s;
 }
-.project-button:hover{
-	background-color:grey;
-	transition:background-color 2s;
+.project-button {
+  margin: -10px 10px;
+  font-size: 20px;
+  background-color: black;
+  color: antiquewhite;
+  font-family: "Courier New", monospace;
+  border: 1px ridge white;
+  height: 36px;
+  width: 120px;
+  border-radius: 20px;
+  cursor: pointer;
+  float: right;
+  transition: background-color 1s;
+}
+.project-button:hover {
+  background-color: grey;
+  transition: background-color 1s;
 }
 .flex-container {
-	display: flex;
-	background-color:blanchedalmond;
-    color:black;
-	flex-direction:row;
-	justify-content: space-between;
-	align-items: center;
-  }
-  
+  display: flex;
+  background-color: blanchedalmond;
+  color: black;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .flex-container > img {
-	background-color:whitesmoke;
-	margin: 50px;
-	margin-left: 50px;
-	padding: 50px;
-	padding-right: 50px;
-	font-size: 50px;
-	
-  }
+  background-color: whitesmoke;
+  margin: 30px;
+  font-size: 50px;
+}
