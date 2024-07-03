@@ -103,8 +103,8 @@ body{
 .flex-container > div {
 	background-color:whitesmoke;
 	margin: 50px;
+	margin-left: 50px;
 	padding: 50px;
 	padding-right: 50px;
-
 	font-size: 50px;
   }
