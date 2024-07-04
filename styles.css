@@ -2,10 +2,6 @@ body {
   padding: 25px;
   background-color: black;
 }
-.title {
-  color: antiquewhite;
-  font-family: "Courier New", monospace;
-}
 .header {
   color: antiquewhite;
   font-family: "Courier New", monospace;
@@ -15,6 +11,12 @@ body {
 .level {
   color: #4b70f5;
   font-family: "Courier New", monospace;
+.red-hat-mono {
+  color:white;
+  font-family: "Red Hat Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
 .about_me-button {
   margin: -10px 10px;
