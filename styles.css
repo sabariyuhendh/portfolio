@@ -5,21 +5,22 @@ body {
 .header {
   color: white;
   font-family: "Red Hat Mono", monospace;
-  font-size: 60px;
+  font-size: 50px;
+  font-weight: 500;
   margin: -20px 10px;
 }
 .level {
   color: #4b70f5;
   font-family: "Red Hat Mono", monospace; 
   font-optical-sizing: auto; 
-  font-weight: 300; 
+  font-weight: 700; 
   font-style: normal;
 }
 .title {
   color: white;
   font-family: "Red Hat Mono", monospace; 
   font-optical-sizing: auto; 
-  font-weight: 300; 
+  font-weight: 700; 
   font-style: normal;
 }
 .about_me-button {
