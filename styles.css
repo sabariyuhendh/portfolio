@@ -24,7 +24,7 @@ body {
   font-style: normal;
 }
 .about_me-button {
-  margin: -10px 10px;
+  margin: -8px 10px;
   font-size: 20px;
   background-color: black;
   color: white;
@@ -44,7 +44,7 @@ body {
   transition: background-color 1s;
 }
 .work-button {
-  margin: -10px 10px;
+  margin: -8px 10px;
   font-size: 20px;
   background-color: black;
   color: white;
@@ -62,7 +62,7 @@ body {
   transition: background-color 1s;
 }
 .resume-button {
-  margin: -10px 10px;
+  margin: -8px 10px;
   font-size: 20px;
   background-color: black;
   color: white;
@@ -80,7 +80,7 @@ body {
   transition: background-color 1s;
 }
 .project-button {
-  margin: -10px 10px;
+  margin: -8px 8px;
   font-size: 20px;
   background-color: black;
   color: white;
