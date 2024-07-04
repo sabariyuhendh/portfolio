@@ -98,12 +98,12 @@ body {
 }
 .flex-container {
   display: flex;
-  background-color: blanchedalmond;
+  background-color: whitesmoke;
   color: black;
   flex-direction: row;
   gap: 5px;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
 }
 
