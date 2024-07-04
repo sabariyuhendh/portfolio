@@ -4,12 +4,19 @@ body {
 }
 .header {
   color: antiquewhite;
-  font-family: "Courier New", monospace;
+  font-family: "Red Hat Mono", monospace;
   font-size: 60px;
   margin: -20px 10px;
 }
 .level {
   color: #4b70f5;
+  font-family: "Red Hat Mono", monospace; 
+  font-optical-sizing: auto; 
+  font-weight: 300; 
+  font-style: normal;
+}
+.title {
+  color: white;
   font-family: "Red Hat Mono", monospace; 
   font-optical-sizing: auto; 
   font-weight: 300; 
