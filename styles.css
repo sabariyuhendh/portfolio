@@ -100,7 +100,7 @@ body {
 }
 .flex-container {
   display: flex;
-  background-image: url('linux-nitros-dark-ov-3440x1440.jpg');
+  background-image: url('linux-nixos-7q-7680x4320.jpg.jpg');
   color: black;
   flex-direction: row;
   gap: 5px;
@@ -108,9 +108,15 @@ body {
   flex-wrap: nowrap;
   justify-content: center;
 }
-
 .flex-container > img {
   background-color: whitesmoke;
   margin: 30px;
   font-size: 50px;
+}
+.about_me-text{
+  color: white;
+  font-family: "Red Hat Mono", monospace;
+  font-optical-sizing: auto; 
+  font-weight: 600; 
+  font-style: normal;
 }
