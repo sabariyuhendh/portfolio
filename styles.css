@@ -34,14 +34,18 @@ body {
   border-width: 1px;
   height: 36px;
   width: 130px;
-  border-radius: 20px;
+  border-style: none;
   cursor: pointer;
   float: right;
-  transition: background-color 1s;
+  transition: color 1s;
+  
+}
+::seletcion{
+  color : red;  background-color: blue;
 }
 .about_me-button:hover {
-  background-color: grey;
-  transition: background-color 1s;
+  color: #4b70f5;
+  transition: color 1s;
 }
 .work-button {
   margin: -8px 10px;
@@ -49,17 +53,17 @@ body {
   background-color: black;
   color: white;
   font-family: "Red Hat Mono", monospace;
-  border: 1px ridge white;
+  
   height: 36px;
   width: 120px;
-  border-radius: 20px;
+  
   cursor: pointer;
   float: right;
-  transition: background-color 1s;
+  transition: color 1s;
 }
 .work-button:hover {
-  background-color: grey;
-  transition: background-color 1s;
+  color: #4b70f5;
+  transition: color 1s;
 }
 .resume-button {
   margin: -8px 10px;
@@ -67,17 +71,17 @@ body {
   background-color: black;
   color: white;
   font-family: "Red Hat Mono", monospace;
-  border: 1px ridge white;
+  
   height: 36px;
   width: 120px;
-  border-radius: 20px;
+  
   cursor: pointer;
   float: right;
-  transition: background-color 1s;
+  transition: color 1s;
 }
 .resume-button:hover {
-  background-color: grey;
-  transition: background-color 1s;
+  color: #4b70f5;
+  transition: color 1s;
 }
 .project-button {
   margin: -8px 8px;
@@ -85,17 +89,17 @@ body {
   background-color: black;
   color: white;
   font-family: "Red Hat Mono", monospace;
-  border: 1px ridge white;
+  
   height: 36px;
   width: 120px;
-  border-radius: 20px;
+  
   cursor: pointer;
   float: right;
-  transition: background-color 1s;
+  transition: color 1s;
 }
 .project-button:hover {
-  background-color: grey;
-  transition: background-color 1s;
+  color: #4b70f5;
+  transition: color 1s;
 }
 .flex-container {
   display: flex;
