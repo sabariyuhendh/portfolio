@@ -13,30 +13,29 @@ body {
   color: #4b70f5;
   font-family: "Red Hat Mono", monospace; 
   font-optical-sizing: auto; 
-  font-weight: 450; 
+  font-weight: 600; 
   font-style: normal;
 }
 .title {
   color: white;
   font-family: "Red Hat Mono", monospace; 
   font-optical-sizing: auto; 
-  font-weight: 450; 
+  font-weight: 600; 
   font-style: normal;
 }
 .about_me-button {
   margin: -8px 10px;
-  font-size: 20px;
+  font-size: 22px;
   background-color: black;
   color: white;
   font-family: "Red Hat Mono", monospace;
-  border-width: 1px;
+  font-weight: 500;
   height: 36px;
   width: 130px;
   border-style: none;
   cursor: pointer;
   float: right;
   transition: color 1s;
-  
 }
 ::seletcion{
   color : red;  background-color: blue;
@@ -47,14 +46,14 @@ body {
 }
 .work-button {
   margin: -8px 10px;
-  font-size: 20px;
+  font-size: 22px;
   background-color: black;
   color: white;
   font-family: "Red Hat Mono", monospace;
   border-style: none;
   height: 36px;
   width: 120px;
-  
+  font-weight: 500;
   cursor: pointer;
   float: right;
   transition: color 1s;
@@ -65,14 +64,14 @@ body {
 }
 .resume-button {
   margin: -8px 10px;
-  font-size: 20px;
+  font-size: 22px;
   background-color: black;
   color: white;
   font-family: "Red Hat Mono", monospace;
   border-style: none;
   height: 36px;
   width: 120px;
-  
+  font-weight: 500;
   cursor: pointer;
   float: right;
   transition: color 1s;
@@ -83,11 +82,11 @@ body {
 }
 .project-button {
   margin: -8px 8px;
-  font-size: 20px;
+  font-size: 22px;
   background-color: black;
   color: white;
   font-family: "Red Hat Mono", monospace;
-  
+  font-weight: 500;
   height: 36px;
   width: 120px;
   border-style: none;
@@ -101,7 +100,7 @@ body {
 }
 .flex-container {
   display: flex;
-  background-color: whitesmoke;
+  background-image: url('linux-nixos-7q-7680x4320.jpg.jpg');
   color: black;
   flex-direction: row;
   gap: 5px;
