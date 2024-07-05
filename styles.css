@@ -29,8 +29,6 @@ body {
   background-color: black;
   color: white;
   font-family: "Red Hat Mono", monospace;
-  border-color: white;
-  border-style: ridge;
   border-width: 1px;
   height: 36px;
   width: 130px;
@@ -53,7 +51,7 @@ body {
   background-color: black;
   color: white;
   font-family: "Red Hat Mono", monospace;
-  
+  border-style: none;
   height: 36px;
   width: 120px;
   
@@ -71,7 +69,7 @@ body {
   background-color: black;
   color: white;
   font-family: "Red Hat Mono", monospace;
-  
+  border-style: none;
   height: 36px;
   width: 120px;
   
@@ -92,7 +90,7 @@ body {
   
   height: 36px;
   width: 120px;
-  
+  border-style: none;
   cursor: pointer;
   float: right;
   transition: color 1s;
