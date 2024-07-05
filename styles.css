@@ -100,7 +100,7 @@ body {
 }
 .flex-container {
   display: flex;
-  background-image: url('linux-nixos-7q-7680x4320.jpg.jpg');
+  background-image: url('linux-nixos-7q-7680x4320.jpg');
   color: black;
   flex-direction: row;
   gap: 5px;
