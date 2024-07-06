@@ -1,6 +1,6 @@
 body {
   padding: 25px;
-  background: linear-gradient(to right, rgb(55, 65, 81), rgb(17, 24, 39), rgb(0, 0, 0));
+  background: linear-gradient(to left, rgb(55, 65, 81), rgb(17, 24, 39), rgb(0, 0, 0));
 }
 
 .header {
@@ -135,7 +135,7 @@ body {
 
 .flex-container {
   display: flex;
-  background-image: url('linux-nixos-7q-7680x4320.jpg.jpg');
+  background: rgba(4, 2, 102, 0.555);
   color: black;
   flex-direction: row;
   gap: 5px;
