@@ -1,50 +1,53 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Portfolio</title></title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css" />
-   <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital,wght@0,300..700;1,300..700&display=swap"
+      rel="stylesheet"
+    />
   </head>
-   <body> 
-      <button class = "project-button">
-         Project
+  <body>
+    <div class="head-flex-container">
+      <div>
+      <p class="header">Portfolio.</p>
+      </div>
+      <div>
+      <button class="project-button">Project</button>
+      <button
+        onclick="(()=>{var pdfPath = '/Resume-1.pdf';window.open(pdfPath, '_blank');})()"class="resume-button">
+        Resume
       </button>
-      <button onclick="(()=>{
-      var pdfPath = '/Resume-1.pdf';
-      window.open(pdfPath, '_blank');
-      })()" class = "resume-button">
-         Resume
-      </button>
-
-      <button class = "about_me-button">
-         About
-      </button>
-
-      <button class = "work-button">
-         Work
-      </button>
-      <p class = "header">Portfolio.</p>
-      <br>
-      <br>
-      <br>
-      <br>
-        <h1 class = "title">Hey!👋🏻I'm Sabari Yuhendhran,</h1>
-        <h1 class="level animate__animated animate__fadeInUp" >_____________________.</h1>
-         <h1 class="title">About Me 😎 </h1>
-         <p class="about_me-text"> As a beginner, I started my journey by doing Front-end projects. This sparked my interest in coding, and I began using paid resources like Treehouse and Code School to learn web programming. I then moved on to free resources like CS50, which taught me computer science fundamentals and exposed me to languages like C, PHP, JS, and SQL.</p>
-         <h1 class = "title">Activities & Interests 🎻</h1>
-         <p class="about_me-text">As a car enthusiast, music lover, and lifelong learner who's passionate about helping others, I'm a multifaceted individual with a range of interests! I might enjoy attending car shows and meets, restoring and customizing cars, or even participating in drag racing or drifting, while also discovering new artists and genres, creating playlists and mixtapes, or learning to play a musical instrument. I'm always looking to expand my knowledge and skills, whether through online courses, seminars, or learning a new language, and I find joy in making a positive impact on the world around me through volunteering, mentoring, or simply being there for others.</p>
-       <div class="flex-container">
-         <img src="code-programming-syntax.jpg" alt ="" width = "300">
-         <img src="code-programming-syntax.jpg" alt ="" width = "300">
-         <img src="code-programming-syntax.jpg" alt ="" width = "300">
-        </div>    
-     <script src="script.js"></script>
-     </body>
+      <button class="about_me-button">About</button>
+      <button class="work-button">Work</button>
+      </div>
+   </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 class="title">Hey!👋🏻I'm Sabari Yuhendhran,</h1>
+    <h1 class="level animate__animated animate__fadeInUp">_____________________.</h1>
+    <h1 class="title">About Me 😎 </h1>
+    <p class="about_me-text">
+      As a beginner, I started my journey by doing Front-end projects. This sparked my interest in coding, and I began using paid resources like Treehouse and Code School to learn web programming. I then moved on to free resources like CS50, which taught me computer science fundamentals and exposed me to languages like C, PHP, JS, and SQL.
+    </p>
+    <h1 class="title">Activities & Interests 🎻</h1>
+    <p class="about_me-text">
+      As a car enthusiast, music lover, and lifelong learner who's passionate about helping others, I'm a multifaceted individual with a range of interests! I might enjoy attending car shows and meets, restoring and customizing cars, or even participating in drag racing or drifting, while also discovering new artists and genres, creating playlists and mixtapes, or learning to play a musical instrument. I'm always looking to expand my knowledge and skills, whether through online courses, seminars, or learning a new language, and I find joy in making a positive impact on the world around me through volunteering, mentoring, or simply being there for others.
+    </p>
+    <div class="flex-container">
+      <img src="code-programming-syntax.jpg" alt="" width="300">
+      <img src="code-programming-syntax.jpg" alt="" width="300">
+      <img src="code-programming-syntax.jpg" alt="" width="300">
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
