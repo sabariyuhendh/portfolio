@@ -61,7 +61,6 @@ body {
   backdrop-filter: blur(9.5px);
   -webkit-backdrop-filter: blur(9.5px);
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
   padding: 25px 10px 25px 10px;
   max-width: 80%;
   color: black;
