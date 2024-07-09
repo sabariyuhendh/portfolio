@@ -62,7 +62,7 @@ body {
   -webkit-backdrop-filter: blur(9.5px);
   border-radius: 10px;
   padding: 25px 10px 25px 10px;
-  max-width: 80%;
+  max-width: 100%;
   color: black;
   flex-direction: row;
   gap: 5px;
