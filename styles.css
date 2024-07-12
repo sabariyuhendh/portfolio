@@ -1,1 +1,41 @@
+body{
+    background-color: rgba(8, 8, 8, 0.877);
+    color: white;
+    font-family: 'Red Hat Mono', monospace;
+    padding: 0;
+    margin: 0;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.head-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-size: x-large;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.main{
+    display: flex;
+    padding-top: 30vh;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    font-size: x-large;
+}
+footer{
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    gap:8px;
+}
+.name{
+    font-size: 2rem;
+    font-weight: 600;
 
+}
