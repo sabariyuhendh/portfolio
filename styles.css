@@ -7,6 +7,15 @@ body {
     font-weight: 600;
     font-style: normal;
 }
+/* Styles for tablets */
+@media (min-width: 768px) and (max-width: 1024px) { 
+    /* CSS styles specific to tablets */
+}
+
+/* Styles for mobile devices */
+@media (max-width: 767px) {
+    /* CSS styles specific to mobile devices */
+}
 
 * {
     padding-left: 3.5rem;
