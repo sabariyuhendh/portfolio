@@ -7,36 +7,119 @@ body {
     font-weight: 600;
     font-style: normal;
 }
+
 /* Styles for tablets */
-@media (min-width: 768px) and (max-width: 1024px) { 
-    /* CSS styles specific to tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Adjust padding for all elements */
+    * {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    
+    /* Adjust padding for .container */
+    .container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    
+    /* Adjust font size for .head-flex */
+    .head-flex {
+        font-size: large; /* Adjust to appropriate size */
+    }
+    
+    /* Adjust font size for links */
+    a {
+        font-size: 1.3rem; /* Adjust to appropriate size */
+    }
+    
+    /* Adjust font size for .main */
+    .main {
+        padding-top: 20vh; /* Adjust to appropriate size */
+        font-size: 50px; /* Adjust to appropriate size */
+        margin-bottom: 20vh; /* Adjust to appropriate size */
+    }
+    
+    /* Adjust padding for .about and .work */
+    .about,
+    .work {
+        padding: 3rem 1rem; /* Adjust to appropriate size */
+    }
+    
+    /* Adjust font size for .about and .work */
+    .about,
+    .work {
+        font-size: 2rem; /* Adjust to appropriate size */
+    }
 }
 
 /* Styles for mobile devices */
 @media (max-width: 767px) {
-    /* CSS styles specific to mobile devices */
+    /* Adjust padding for all elements */
+    * {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    /* Adjust padding for .container */
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    /* Adjust font size for .head-flex */
+    .head-flex {
+        font-size: medium; /* Adjust to appropriate size */
+    }
+    
+    /* Adjust font size for links */
+    a {
+        font-size: 1.2rem; /* Adjust to appropriate size */
+    }
+    
+    /* Adjust font size for .main */
+    .main {
+        padding-top: 10vh; /* Adjust to appropriate size */
+        font-size: 40px; /* Adjust to appropriate size */
+        margin-bottom: 10vh; /* Adjust to appropriate size */
+    }
+    
+    /* Adjust padding for .about and .work */
+    .about,
+    .work {
+        padding: 2rem 0.5rem; /* Adjust to appropriate size */
+    }
+    
+    /* Adjust font size for .about and .work */
+    .about,
+    .work {
+        font-size: 1.5rem; /* Adjust to appropriate size */
+    }
 }
 
+/* General styles (applies to all screen sizes) */
+
 * {
-    padding-left: 3.5rem;
-    padding-right: 3.5rem;
+    padding-left: 3.5rem; /* Keep this as default for larger screens */
+    padding-right: 3.5rem; /* Keep this as default for larger screens */
 }
+
 .container {
-    padding-left: 3.5rem;
-    padding-right: 3.5rem;
+    padding-left: 3.5rem; /* Keep this as default for larger screens */
+    padding-right: 3.5rem; /* Keep this as default for larger screens */
 }
+
 .head-flex {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    font-size: x-large;
+    font-size: x-large; /* Default size */
 }
 
 a {
     color: white;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.5rem; /* Default size */
     padding: 5px;
     margin: 10px;
     font-weight: 500;
@@ -48,7 +131,7 @@ a {
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
-    font-size: 70px;
+    font-size: 70px; /* Default size */
     margin-bottom: 30vh;
 }
 
@@ -56,12 +139,12 @@ footer {
     line-height: 40px;
     display: flex;
     justify-content: center;
-    font-size: 1rem;
+    font-size: 1rem; /* Default size */
     gap: 8px;
 }
 
 .name {
-    font-size: 2rem;
+    font-size: 2rem; /* Default size */
     font-weight: 500;
 }
 
@@ -73,7 +156,7 @@ footer {
     align-items: start;
     padding: 6rem 3rem;
     color: #fff;
-    font-size: 3rem;
+    font-size: 3rem; /* Default size */
     font-weight: 400;
     line-height: 1.2;
     border: 1px solid rgba(255, 255, 255, 0.18);
@@ -86,7 +169,8 @@ footer {
 .para {
     font-size: xx-large;
 }
-.work{
+
+.work {
     display: grid;
     margin-top: 10vh;
     grid-template-columns: 1fr 1fr;
@@ -95,11 +179,12 @@ footer {
     align-items: start;
     padding: 6rem 3rem;
     color: #fff;
-    font-size: 3rem;
+    font-size: 3rem; /* Default size */
     font-weight: 400;
     line-height: 1.2;
     border: 1px solid rgba(255, 255, 255, 0.18);
 }
+
 .works {
     display: flex;
     flex-direction: column;
@@ -115,7 +200,7 @@ footer {
     margin: 0.5rem 0;
     text-decoration: none;
     border-radius: 5px;
-    font-size: 1.2rem;
+    font-size: 1.2rem; /* Default size */
     transition: background-color 0.3s, transform 0.3s;
 }
 
