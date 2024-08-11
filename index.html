@@ -1,194 +1,207 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" type="image/x-icon" href="./images/adobe-portfolio.svg" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <style>
-    /* header */
-    * {
-      margin: 0px;
-      box-sizing: border-box;
-      font-family: "Teko", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: 600;
-      font-style: normal;
-      color: aliceblue;
-      background-color: #0c0c0c;
-    }
-    .header {
-      display: flex;
-      height: 10vh;
-      flex-direction: row;
-      justify-content: space-between;
-      background: #0c0c0c;
-      padding: 5px 15px;
-      align-items: center;
-    }
-    nav {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      gap: 7px;
-    }
-    a {
-      border-style: solid;
-      padding: 5px 15px;
-      color: #daff06;
-      border-width: 1px;
-      border-radius: 10px;
-      transition: 1s;
-}
-    }
 
-    /* body */
-    .body {
-      display: flex;
-      flex-direction: column;
-      justify-items: center;
-      min-height: 100vh;
-    }
-    a:hover {
+<head>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/x-icon" href="./images/adobe-portfolio.svg" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet" />
+</head>
+<style>
+  /* header */
+  * {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: aliceblue;
+    background-color: #0c0c0c;
+  }
+
+  .header {
+    display: flex;
+    height: 10vh;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #0c0c0c;
+    padding: 5px 15px;
+    align-items: center;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 7px;
+  }
+
+  a {
+    border-style: solid;
+    padding: 5px 15px;
+    color: #daff06;
+    border-width: 1px;
+    border-radius: 10px;
+    transition: 1s;
+  }
+
+  /* body */
+  .body {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    min-height: 100vh;
+  }
+
+  a:hover {
     background-color: #00fffc;
     color: black;
     box-shadow: 0 0 20px #00fffc, 0 0 40px #00fffc, 0 0 60px #00fffc;
     text-shadow: 0 0 10px #00fffc, 0 0 20px #00fffc, 0 0 30px #00fffc;
     transition: 1s;
-}
-    .container1 {
-      display: flex;
-      flex-direction: column;
-      flex-grow: 1;
-      background-color: #0c0c0c;
-      width: 100%;
-      min-height: 50vh;
-      align-items: center;
-    }
-    .container2 {
-      display: flex;
-      flex-direction: column;
-      flex-grow: 1;
-      background-color: #0c0c0c;
-      width: 100%;
-      height: 80vh;
-      align-items: center;
-      margin-top: 20px;
-    }
+  }
 
-    .image {
-      width: 100%;
-      height: 100%;
-      background-image: url("/images/profile.jpg");
-      object-position: center;
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-    }
-    .name {
-      font-size: 150px;
-      text-align: center;
-    }
-    .role {
-      font-size: 100px;
-    }
-    .lastname {
-      color: #daff06;
-    }
-    .content {
-      background-image: url("/images/Develop.jpeg");
-      display: flex;  
-      border: #daff062d;
-      flex-grow: 1;
-      border-style: solid;
-      width: 80vw;
-      border-radius: 10px;
-      border-width: 2px;
-    }
-    /* about */
-    .about {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      min-height: 100vh;
-      height: 100vh;
-      align-items: center;
-    }
-    .about-content{
-      max-width: 80vw ;
-    }
-    .title {
-      font-size: 100px;
-      color: #daff06;
-    }
-    /* footer */
-    .footer {
-      display: flex;
-      height: 10vh;
-      flex-direction: row;
-      justify-content: space-between;
-      background: #0c0c0c;
-      padding: 5px 15px;
-      align-items: center;
-    }
-  </style>
-  <body>
-    <section class="header">
-      <h2>sabari <span class="lastname">Yuhendhran</span></h2>
-      <nav>
-        <a href="/"> Home </a>
-        <a href="/"> About </a>
-        <a href="/"> Project </a>
-        <a href="/"> Contact </a>
-      </nav>
-    </section>
-    <section class="body">
-      <div class="container1">
-        <h1 class="name">Sabari<span class="lastname"> Yuhendhran</span></h1>
-        <h2 class="role">Dev.elo.per</h2>
-        <p class="animate__animated animate__fadeInUp">
-          <a href="https://github.com/sabariyuhendh" target="_blank">Github</a>
-          <a href="https://www.linkedin.com/in/sabari-yuhendhran/" target="_blank">LinkedIn</a>
-          <a href="https://twitter.com/sabariyuhendh" target="_blank">Twitter</a>
-          <a href="https://www.instagram.com/sabariyuhendh/" target="_blank">Instagram</a>
-          <a href="https://www.behance.net/sabariyuhendh" target="_blank">Behance</a>
-          <a href="https://www.figma.com/@sabariyuhendh" target="_blank">Figma</a>
-          <a href="https://dribbble.com/sabariyuhendh" target="_blank">Dribbble</a>
-          <a href="https://www.kaggle.com/sabariyuhendh" target="_blank">Kaggle</a>
-        </p>
-      </div>
-      <div class="container2">
-        <div class="content">
-        </div>
-      </div>
-    </section>
-    <section class="about">
-      <div
-      class="about-content">
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: #0c0c0c;
+    width: 100%;
+    min-height: 50vh;
+    align-items: center;
+    gap: 10px;
+  }
 
-        <h1 class="title">About</h1>
-        <div>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. In similique
-          perspiciatis est corrupti placeat sunt architecto rerum, quam quis
-          consequuntur provident fugit nesciunt, ducimus perferendis impedit iure.
-          Quas, sequi pariatur.
-        </div>
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: #0c0c0c;
+    width: 100%;
+    height: 80vh;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .image {
+    width: 100%;
+    height: 100%;
+    background-image: url("/images/profile.jpg");
+    object-position: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .name {
+    font-size: 150px;
+    text-align: center;
+  }
+
+  .role {
+    font-size: 100px;
+  }
+
+  .lastname {
+    color: #daff06;
+  }
+
+  .content {
+    background-image: url("/images/Develop.jpeg");
+    display: flex;
+    border: #daff062d;
+    flex-grow: 1;
+    border-style: solid;
+    width: 80vw;
+    border-radius: 10px;
+    border-width: 2px;
+    /* border-color: #daff06; */
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+  }
+
+  /* about */
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 100vh;
+    height: 100vh;
+    align-items: center;
+  }
+
+  .about-content {
+    max-width: 80vw;
+  }
+
+  .title {
+    font-size: 100px;
+    color: #daff06;
+  }
+
+  /* footer */
+  .footer {
+    display: flex;
+    height: 10vh;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #0c0c0c;
+    padding: 5px 15px;
+    align-items: center;
+  }
+</style>
+
+<body>
+  <section class="header">
+    <h2>sabari <span class="lastname">Yuhendhran</span></h2>
+    <nav>
+      <a href="/"> Home </a>
+      <a href="/"> About </a>
+      <a href="/"> Project </a>
+      <a href="/"> Contact </a>
+    </nav>
+  </section>
+  <section class="body">
+    <div class="container1">
+      <h1 class="name">Sabari<span class="lastname"> Yuhendhran</span></h1>
+      <h2 class="role">Dev.elo.per</h2>
+      <p class="animate__animated animate__fadeInUp" >
+        <a href="https://github.com/sabariyuhendh" target="_blank">Github</a>
+        <a href="https://www.linkedin.com/in/sabari-yuhendhran/" target="_blank">LinkedIn</a>
+        <a href="https://twitter.com/sabariyuhendh" target="_blank">Twitter</a>
+        <a href="https://www.instagram.com/sabariyuhendh/" target="_blank">Instagram</a>
+        <a href="https://www.behance.net/sabariyuhendh" target="_blank">Behance</a>
+        <a href="https://www.figma.com/@sabariyuhendh" target="_blank">Figma</a>
+        <a href="https://dribbble.com/sabariyuhendh" target="_blank">Dribbble</a>
+        <a href="https://www.kaggle.com/sabariyuhendh" target="_blank">Kaggle</a>
+      </p>
+    </div>
+    <div class="container2">
+      <div class="content">
       </div>
-    </section>
-    <section class="footer">
-      
-    </section>
-    <script src="script.js"></script>
-  </body>
+    </div>
+  </section>
+  <section class="about">
+    <div class="about-content">
+
+      <h1 class="title">About</h1>
+      <div>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. In similique
+        perspiciatis est corrupti placeat sunt architecto rerum, quam quis
+        consequuntur provident fugit nesciunt, ducimus perferendis impedit iure.
+        Quas, sequi pariatur.
+      </div>
+    </div>
+  </section>
+  <section class="footer">
+
+  </section>
+  <script src="script.js"></script>
+</body>
+
 </html>
-
